@@ -61,5 +61,6 @@ yt-dlp \
 	--embed-thumbnail \
 	--ppa "EmbedThumbnail+ffmpeg_o:-c:v mjpeg -vf crop=\"'if(gt(ih,iw),iw,ih)':'if(gt(iw,ih),ih,iw)'\"" \
 	-o "${output_tpl}" \
+	--no-progress \
 	"$1"
 

@@ -13,3 +13,12 @@ This is just a repo for some random scripts for downloading things using yt-dlp 
   - Adjust *yt-dlp*'s output filename template (new default folder hierarchy "artist/album" instead of "artist - album")
   - Download everything to your personal music folder, instead of the current directory)
 
+## yt-music-download-tui.sh
+
+- Menu-driven TUI using *dialog*
+- Features:
+  - Ask the user for a YouTube Music URL
+  - Confirmation before starting the download
+  - Download the album using `yt-music-album-download.sh`
+  - Display output in a *dialog --progressbox*
+
