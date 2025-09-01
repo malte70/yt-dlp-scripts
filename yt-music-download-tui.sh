@@ -21,9 +21,9 @@ DIALOG_TITLE="YTMusic Album Download"
 DIALOG_TEXT=" 
 Please enter the URL of the album you want to download from YouTube Music:
  "
-#DIALOG_DEFAULT=""
+DIALOG_DEFAULT=""
 #DIALOG_DEFAULT="https://music.youtube.com/playlist?list=OLAK5uy_lNoKkOR_PUCqlvE-9wT8ZcczwCXS3XLqo"
-DIALOG_DEFAULT="https://music.youtube.com/playlist?list=OLAK5uy_l0DBT09ziY3SCYFw_-mdOYjz1FlSS2WXM"
+#DIALOG_DEFAULT="https://music.youtube.com/playlist?list=OLAK5uy_l0DBT09ziY3SCYFw_-mdOYjz1FlSS2WXM"
 
 
 
